@@ -73,7 +73,8 @@ md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent
   input[type="password"]
 .md-virtual-repeat-container,
 [ui-view="calendars"] .days .day .clickableHourCell.outOfDay,
-.md-input-focused {
+.md-input-focused,
+.md-virtual-repeat-container .md-virtual-repeat-offsetter {
   background: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
