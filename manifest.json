@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Conecta - Simple Dark Mode",
+  "version": "1.0.0",
+  "description": "Simple DarkMode Conecta CSS!",
+  "content_scripts": 
+  [
+    {
+      "matches": ["https://conecta.pr.gov.br/SOGo/*"],
+      "css": ["custom-styles.css"]
+    }
+  ]
+}

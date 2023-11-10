@@ -1,0 +1,253 @@
+:root {
+  --default-text-color: #ffffff;
+  --default-background-color: #2b2b2b;
+  --text-green: #60a383;
+  --default-background-hover: #4d6977;
+  --default-background-hover-light: rgba(77, 105, 119, 0.2);
+  --default-background-unread: rgba(52, 90, 109);
+}
+
+body,
+md-list,
+md-content,
+md-card,
+md-card-actions,
+md-card-content,
+sg-calendar-day,
+md-dialog-actions,
+md-dialog-content,
+md-chip,
+md-toolbar,
+label,
+input,
+md-input,
+md-option,
+md-option .md-text,
+md-option span,
+md-select-value,
+md-calendar,
+md-calendar-month,
+md-autocomplete,
+md-autocomplete-wrap,
+md-autocomplete-parent-scope,
+md-highlight-flags,
+sg-time-pane,
+md-input-container,
+#loginContent div.sg-login.md-default-theme,
+.sg-login.md-default-theme,
+#login,
+.sg-timepicker-time-pane div,
+.sg-timepicker-time,
+.md-datepicker-expand-triangle,
+::placeholder,
+.md-button.md-default-theme.md-accent[disabled],
+.md-button.md-accent[disabled],
+.md-button.md-default-theme.md-fab[disabled],
+.md-button.md-fab[disabled],
+.md-button.md-default-theme.md-raised[disabled],
+.md-button.md-raised[disabled],
+.md-button.md-default-theme.md-warn[disabled],
+.md-button.md-warn[disabled],
+.md-button.md-default-theme[disabled],
+.md-button[disabled],
+.sg-form-section,
+.sg-timepicker-input-mask,
+.sg-timepicker-input-mask,
+.md-datepicker-input-mask,
+.sg-timepicker-input-mask,
+.md-default-theme .md-datepicker-input-mask-opaque,
+.md-datepicker-input-mask-opaque,
+.md-pane-open .md-datepicker-calendar,
+.md-select-value .md-select-icon,
+.md-toolbar-tools,
+#detailView,
+.sg-account-section,
+.md-default-theme.md-background.md-hue-1.md-bg,
+.md-subheader.md-default-theme,
+.md-subheader,
+md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent,
+md-toolbar.md-hue-1:not(.md-menu-toolbar).md-accent
+  md-input-container[md-no-float]
+  .md-input,
+  input[type="text"],
+  input[type="password"]
+.md-virtual-repeat-container,
+[ui-view="calendars"] .days .day .clickableHourCell.outOfDay,
+.md-input-focused {
+  background: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+md-icon,
+.md-toolbar-tools .md-button,
+.md-toolbar-tools .md-button.md-icon-button md-icon,
+.md-toolbar-tools .md-button.sg-icon-button md-icon,
+.md-toolbar-tools .sg-timepicker-triangle-button.md-button.md-icon-button,
+.md-toolbar-tools .sg-timepicker-triangle-button.md-button.sg-icon-button,
+.md-toolbar-tools [sg-toggle-grid] md-grid-tile.sg-icon-button,
+.md-toolbar-tools [sg-toggle-grid] md-grid-tile.sg-icon-button md-icon,
+.md-toolbar-tools a.md-button.sg-icon-button,
+[sg-toggle-grid] .md-toolbar-tools md-grid-tile.sg-icon-button,
+[sg-toggle-grid] .md-toolbar-tools md-grid-tile.sg-icon-button md-icon {
+  color: var(--default-text-color) !important;
+  background: transparent !important;
+}
+
+.md-sidenav-left md-list-item.md-clickable:not([disabled]):hover,
+md-sidenav md-list-item.md-clickable:not([disabled]):hover {
+  background: var(--default-background-hover) !important;
+  color: var(--default-text-color) !important;
+  font-weight: bolder;
+}
+
+.unread {
+  background: var(--default-background-unread) !important;
+  color: var(--default-text-color) !important;
+}
+
+.md-button.md-default-theme:not([disabled]).md-focused,
+.md-button:not([disabled]).md-focused,
+.md-button.md-default-theme:not([disabled]):hover,
+.md-button:not([disabled]):hover,
+[ui-view="calendars"] .sg-event,
+[ui-view="calendars"] .sg-event span,
+.md-toolbar-tools {
+  background: var(--default-background-hover-light) !important;
+  color: var(--default-text-color) !important;
+}
+
+md-sidenav md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+  background-color: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+.md-default-theme.md-primary.md-fg {
+  color: var(--text-green) !important;
+}
+
+md-progress-linear.md-default-theme .md-bar,
+md-progress-linear .md-bar {
+  background-color: var(--text-green) !important;
+}
+
+md-toolbar md-icon {
+  background: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+.md-button.md-default-theme.md-accent.md-fab,
+.md-button.md-accent.md-fab,
+.md-button.md-default-theme.md-accent.md-raised,
+.md-button.md-accent.md-raised:hover {
+  background-color: rgb(86, 176, 76) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+md-toolbar:not(.md-menu-toolbar) {
+  background-color: #34596b !important;
+}
+
+.md-caption,
+.msg-attachment-image md-card-content p,
+.msg-attachment-link md-card-content p,
+.sg-attachment-size,
+a:-webkit-any-link,
+[ui-view="calendars"] .sg-event .material-icons {
+  color: lightblue !important;
+}
+
+.msg-body p,
+.msg-body div,
+.msg-body span,
+.msg-body td,
+.msg-body tr,
+.msg-body b,
+.msg-body strong,
+.msg-body section,
+.msg-body label {
+  background: var(--default-background-color) !important;
+  color: var(--default-text-color) !important;
+}
+
+md-card {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.2),
+    0 1px 1px 0 rgba(255, 255, 255, 0.14),
+    0 2px 1px -1px rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.2),
+    0 1px 1px 0 rgba(255, 255, 255, 0.14),
+    0 2px 1px -1px rgba(255, 255, 255, 0.12) !important;
+}
+
+md-list-item[style="color: rgb(99, 153, 151);"] {
+  color: rgb(103, 156, 191) !important;
+}
+
+[ui-view="calendars"] .sg-event .eventInside .text {
+  background: var(--default-background-hover-light) !important;
+  color: var(--default-text-color) !important;
+}
+
+md-checkbox .md-icon,
+.md-off {
+  border-color: rgba(255, 255, 255, 0.54) !important;
+}
+
+md-menu-content {
+  background: var(--default-background-color) !important;
+}
+
+[sg-toggle-grid] md-menu-content .md-menu > md-grid-tile.sg-icon-button,
+[sg-toggle-grid] md-menu-item > md-grid-tile.sg-icon-button,
+[sg-toggle-grid]
+  md-menu-item
+  > md-grid-tile.sg-timepicker-triangle-button.sg-icon-button,
+md-list md-list-item md-menu-item > button.md-button.sg-icon-button,
+md-menu-content .md-menu > .md-button,
+md-menu-content
+  .md-menu
+  > .sg-timepicker-triangle-button.md-button.md-icon-button,
+md-menu-content
+  .md-menu
+  > .sg-timepicker-triangle-button.md-button.sg-icon-button,
+md-menu-content [sg-toggle-grid] .md-menu > md-grid-tile.sg-icon-button,
+md-menu-item > .md-button,
+md-menu-item > .md-button.sg-icon-button,
+md-menu-item > .sg-timepicker-triangle-button.md-button.md-icon-button,
+md-menu-item > .sg-timepicker-triangle-button.md-button.sg-icon-button,
+md-tabs,
+md-tab-item,
+#login md-icon,
+#login label {
+  color: var(--default-text-color) !important;
+}
+
+md-chips.md-default-theme
+  .md-chip-remove-container
+  button.md-chip-remove
+  md-icon,
+md-chips .md-chip-remove-container button.md-chip-remove md-icon,
+md-chips.md-default-theme
+  .md-chip-remove-container
+  buttonmd-chip-remove
+  md-icon,
+md-chips
+  .md-chip-remove-container
+  buttonmd-chip-remove
+  md-icon
+  md-calendar-month
+  th,
+md-calendar td {
+  background: var(--default-background-color);
+  color: var(--default-text-color);
+  fill: var(--default-text-color) !important;
+}
+
+md-slider.md-default-theme.md-min[md-discrete] .md-thumb:after,
+md-slider.md-min[md-discrete] .md-thumb:after {
+  background: var(--default-text-color) !important;
+}
+
+.md-datepicker-expand-triangle,
+.sg-timepicker-expand-triangle {
+  border-top-color: white !important;
+}
