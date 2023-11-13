@@ -165,7 +165,8 @@ a:-webkit-any-link,
 .msg-body b,
 .msg-body strong,
 .msg-body section,
-.msg-body label {
+.msg-body label,
+.msg-body font {
   background: var(--default-background-color) !important;
   color: var(--default-text-color) !important;
 }
