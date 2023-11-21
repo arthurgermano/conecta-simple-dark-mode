@@ -20,6 +20,7 @@ md-chip,
 md-toolbar,
 label,
 input,
+textarea,
 md-label,
 md-checkbox.md-default-theme[disabled] .md-label, md-checkbox[disabled] .md-label,
 md-input,
@@ -260,4 +261,8 @@ md-list-item.sg-message-list-item._md-button-wrap.md-with-secondary._md.md-click
   border: 1px dashed white !important;
   border-style: solid !important;
   border-radius: 0.5rem !important;
+}
+
+md-input-container .md-input {
+  border-color: white !important;
 }
