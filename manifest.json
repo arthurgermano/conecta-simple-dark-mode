@@ -6,7 +6,7 @@
   "content_scripts": 
   [
     {
-      "matches": ["https://conecta.pr.gov.br/SOGo/*"],
+      "matches": ["https://webmail.conecta.pr.gov.br/*"],
       "css": ["custom-styles.css"]
     }
   ]
