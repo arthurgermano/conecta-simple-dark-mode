@@ -266,3 +266,7 @@ md-list-item.sg-message-list-item._md-button-wrap.md-with-secondary._md.md-click
 md-input-container .md-input {
   border-color: white !important;
 }
+
+#message-content > div.ck.ck-reset.ck-editor.ck-rounded-corners > div.ck.ck-editor__main > div {
+  color: black;
+}
